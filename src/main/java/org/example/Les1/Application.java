@@ -16,6 +16,7 @@ public class Application {
         return a1 / a2;
     }
 
+
     public static long getFileSize(File file) {
         if (!file.exists()) {
             return -1L;
